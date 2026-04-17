@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sharp Girl Files | Career Truths Nobody Posts About</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #FFFFFF !important;
+    color: #222222 !important;
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+  }
+
+  .blog-header {
+    background: #1a2744 !important;
+    padding: 22px 20px !important;
+    text-align: center !important;
+  }
+
+  .blog-header h1 {
+    color: #FFCC00 !important;
+    font-family: Georgia, serif !important;
+    font-size: 22px !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+    letter-spacing: 0.03em !important;
+    margin-bottom: 4px !important;
+  }
+
+  .blog-header p {
+    color: #a8b8d8 !important;
+    font-size: 12px !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+  }
+
+  .blog-nav {
+    background: #f4f4f0 !important;
+    border-bottom: 1px solid #ddd !important;
+    padding: 10px 20px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    color: #888 !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  .page-wrap {
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+  }
+
+  .post-header {
+    padding: 40px 0 24px !important;
+    border-bottom: 1px solid #eeeeee !important;
+    margin-bottom: 32px !important;
+  }
+
+  .post-category {
+    display: inline-block !important;
+    background: #1a2744 !important;
+    color: #FFCC00 !important;
+    font-size: 10px !important;
+    font-family: Arial, sans-serif !important;
+    letter-spacing: 0.15em !important;
+    text-transform: uppercase !important;
+    padding: 4px 12px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .post-title {
+    font-family: Georgia, serif !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    color: #111111 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 16px !important;
+  }
+
+  .post-meta {
+    font-family: Arial, sans-serif !important;
+    font-size: 12px !important;
+    color: #888888 !important;
+    font-style: italic !important;
+  }
+
+  .post-body p {
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+    color: #222222 !important;
+    line-height: 1.8 !important;
+  }
+
+  .post-body em { font-style: italic !important; color: #444 !important; }
+  .post-body strong { font-weight: bold !important; color: #111 !important; }
+
+  .img-placeholder {
+    background: #f0f0f0 !important;
+    border: 2px dashed #cccccc !important;
+    padding: 40px 20px !important;
+    text-align: center !important;
+    margin: 28px 0 !important;
+    color: #888888 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+  }
+
+  .img-placeholder span {
+    display: block !important;
+    font-size: 28px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .promise-block {
+    text-align: center !important;
+    padding: 32px 20px !important;
+    margin: 32px 0 !important;
+    border-top: 2px solid #1a2744 !important;
+    border-bottom: 2px solid #1a2744 !important;
+    background: #f8f9fc !important;
+  }
+
+  .promise-block p {
+    font-family: Georgia, serif !important;
+    font-size: 20px !important;
+    font-style: italic !important;
+    color: #1a2744 !important;
+    font-weight: bold !important;
+  }
+
+  .section-divider {
+    border: none !important;
+    border-top: 1px solid #eeeeee !important;
+    margin: 40px 0 !important;
+  }
+
+  /* PRODUCT BOX */
+  .product-reveal {
+    background: #f8f9fc !important;
+    border: 1px solid #d0d8e8 !important;
+    padding: 36px 32px !important;
+    margin: 40px 0 !important;
+    text-align: center !important;
+  }
+
+  .product-reveal h2 {
+    font-family: Georgia, serif !important;
+    font-size: 13px !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase !important;
+    color: #888 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .product-reveal h3 {
+    font-family: Georgia, serif !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    color: #1a2744 !important;
+    line-height: 1.25 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .product-reveal p {
+    font-size: 14px !important;
+    color: #666 !important;
+    font-style: italic !important;
+  }
+
+  /* CONTENTS LIST */
+  .contents-list {
+    background: #ffffff !important;
+    border-left: 4px solid #1a2744 !important;
+    padding: 28px 32px !important;
+    margin: 32px 0 !important;
+  }
+
+  .contents-list h3 {
+    font-family: Georgia, serif !important;
+    font-size: 18px !important;
+    color: #1a2744 !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+  }
+
+  .contents-list ul {
+    list-style: none !important;
+    padding: 0 !important;
+  }
+
+  .contents-list ul li {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    font-size: 15px !important;
+    color: #333 !important;
+    line-height: 1.6 !important;
+  }
+
+  .contents-list ul li:last-child { border-bottom: none !important; }
+
+  .contents-list ul li::before {
+    content: '→ ' !important;
+    color: #1a2744 !important;
+    font-weight: bold !important;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials-wrap {
+    background: #f9f9f9 !important;
+    padding: 36px 28px !important;
+    margin: 40px 0 !important;
+    border: 1px solid #eeeeee !important;
+  }
+
+  .testimonials-wrap h3 {
+    font-family: Georgia, serif !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #1a2744 !important;
+    margin-bottom: 24px !important;
+    text-align: center !important;
+  }
+
+  .comment-card {
+    background: #ffffff !important;
+    border-left: 4px solid #1a2744 !important;
+    padding: 20px 20px 20px 24px !important;
+    margin-bottom: 16px !important;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+  }
+
+  .comment-header {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .comment-avatar {
+    width: 42px !important;
+    height: 42px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #ffffff !important;
+    flex-shrink: 0 !important;
+  }
+
+  .comment-meta { flex: 1 !important; }
+
+  .comment-name {
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #111 !important;
+    font-family: Arial, sans-serif !important;
+  }
+
+  .comment-location {
+    font-size: 12px !important;
+    color: #888888 !important;
+    font-family: Arial, sans-serif !important;
+  }
+
+  .comment-time {
+    font-size: 11px !important;
+    color: #aaaaaa !important;
+    font-family: Arial, sans-serif !important;
+    white-space: nowrap !important;
+  }
+
+  .comment-stars {
+    color: #f5a623 !important;
+    font-size: 14px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .comment-text {
+    font-size: 14px !important;
+    color: #333333 !important;
+    line-height: 1.7 !important;
+    font-family: Arial, sans-serif !important;
+  }
+
+  .pagination {
+    display: flex !important;
+    gap: 8px !important;
+    justify-content: center !important;
+    margin-top: 20px !important;
+  }
+
+  .pagination span {
+    width: 34px !important;
+    height: 34px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 13px !important;
+    font-family: Arial, sans-serif !important;
+    cursor: pointer !important;
+    border: 1px solid #dddddd !important;
+    color: #555 !important;
+  }
+
+  .pagination span.active {
+    background: #1a2744 !important;
+    color: #ffffff !important;
+    border-color: #1a2744 !important;
+  }
+
+  .comment-form {
+    margin-top: 24px !important;
+    padding-top: 20px !important;
+    border-top: 1px solid #eeeeee !important;
+  }
+
+  .comment-form h4 {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    color: #555 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .comment-form input,
+  .comment-form textarea {
+    width: 100% !important;
+    padding: 10px 14px !important;
+    border: 1px solid #dddddd !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    font-family: Arial, sans-serif !important;
+    background: #fafafa !important;
+    color: #333 !important;
+  }
+
+  .comment-form button {
+    background: #1a2744 !important;
+    color: #ffffff !important;
+    padding: 11px 24px !important;
+    border: none !important;
+    font-size: 13px !important;
+    font-family: Arial, sans-serif !important;
+    letter-spacing: 0.06em !important;
+    cursor: pointer !important;
+  }
+
+  /* PRICING */
+  .pricing-section {
+    background: #f8f9fc !important;
+    border: 1px solid #d0d8e8 !important;
+    padding: 36px 32px !important;
+    margin: 40px 0 !important;
+  }
+
+  .pricing-section h2 {
+    font-family: Georgia, serif !important;
+    font-size: 20px !important;
+    color: #1a2744 !important;
+    font-weight: bold !important;
+    margin-bottom: 16px !important;
+  }
+
+  .cost-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 16px 0 24px !important;
+  }
+
+  .cost-list li {
+    padding: 7px 0 !important;
+    font-size: 14px !important;
+    color: #444 !important;
+    font-family: Arial, sans-serif !important;
+    border-bottom: 1px solid #e8e8e8 !important;
+  }
+
+  .cost-list li::before {
+    content: '✓ ' !important;
+    color: #1a2744 !important;
+    font-weight: bold !important;
+  }
+
+  .price-descent {
+    margin: 24px 0 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 15px !important;
+    color: #555 !important;
+    line-height: 2 !important;
+  }
+
+  .price-descent s { color: #aaa !important; }
+
+  .price-final {
+    text-align: center !important;
+    padding: 24px 0 16px !important;
+  }
+
+  .price-was {
+    font-family: Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #aaaaaa !important;
+    text-decoration: line-through !important;
+    display: block !important;
+    margin-bottom: 4px !important;
+  }
+
+  .price-now {
+    font-family: Georgia, serif !important;
+    font-size: 52px !important;
+    font-weight: bold !important;
+    color: #c0392b !important;
+    line-height: 1 !important;
+    display: block !important;
+  }
+
+  .price-usd {
+    font-size: 14px !important;
+    color: #888 !important;
+    font-family: Arial, sans-serif !important;
+    margin-top: 4px !important;
+    display: block !important;
+  }
+
+  .scarcity-bar {
+    background: #c0392b !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    padding: 14px 20px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.04em !important;
+    margin: 24px 0 !important;
+  }
+
+  /* CTA BUTTON */
+  .cta-btn {
+    display: block !important;
+    width: 100% !important;
+    background: #1a2744 !important;
+    color: #FFCC00 !important;
+    text-align: center !important;
+    padding: 20px 16px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.04em !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    cursor: pointer !important;
+    margin: 20px 0 !important;
+    line-height: 1.4 !important;
+  }
+
+  .cta-btn:hover { background: #243660 !important; }
+
+  .cta-subtext {
+    text-align: center !important;
+    font-size: 12px !important;
+    color: #888888 !important;
+    font-family: Arial, sans-serif !important;
+    margin-top: -12px !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* BONUSES */
+  .bonus-section {
+    background: #fffdf0 !important;
+    border: 2px solid #FFCC00 !important;
+    padding: 32px 28px !important;
+    margin: 40px 0 !important;
+  }
+
+  .bonus-section h2 {
+    font-family: Georgia, serif !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    color: #1a2744 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .bonus-section .bonus-note {
+    font-size: 13px !important;
+    color: #888 !important;
+    font-family: Arial, sans-serif !important;
+    margin-bottom: 28px !important;
+    font-style: italic !important;
+  }
+
+  .bonus-item {
+    display: grid !important;
+    grid-template-columns: 140px 1fr !important;
+    gap: 20px !important;
+    align-items: start !important;
+    margin-bottom: 24px !important;
+    padding-bottom: 24px !important;
+    border-bottom: 1px solid #f0e880 !important;
+  }
+
+  .bonus-item:last-of-type { border-bottom: none !important; margin-bottom: 0 !important; }
+
+  .bonus-img-placeholder {
+    background: #f0f0e0 !important;
+    border: 2px dashed #cccc80 !important;
+    padding: 20px 10px !important;
+    text-align: center !important;
+    font-size: 11px !important;
+    color: #999 !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.5 !important;
+  }
+
+  .bonus-content h4 {
+    font-family: Georgia, serif !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    color: #1a2744 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .bonus-content p {
+    font-size: 14px !important;
+    color: #555 !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.7 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .bonus-value {
+    display: inline-block !important;
+    background: #1a2744 !important;
+    color: #FFCC00 !important;
+    font-size: 12px !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold !important;
+    padding: 3px 10px !important;
+    letter-spacing: 0.06em !important;
+  }
+
+  /* WHATSAPP MOCKUP */
+  .wa-section {
+    margin: 40px 0 !important;
+  }
+
+  .wa-section h3 {
+    font-family: Georgia, serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #1a2744 !important;
+    margin-bottom: 16px !important;
+    text-align: center !important;
+  }
+
+  .wa-phone {
+    background: #0B141A !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    max-width: 380px !important;
+    margin: 0 auto !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25) !important;
+  }
+
+  .wa-header {
+    background: #1F2C34 !important;
+    padding: 14px 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+
+  .wa-avatar {
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+    background: #2a5a3a !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    font-family: Arial, sans-serif !important;
+    flex-shrink: 0 !important;
+  }
+
+  .wa-group-info h4 {
+    color: #e9edef !important;
+    font-size: 14px !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold !important;
+    margin-bottom: 2px !important;
+  }
+
+  .wa-group-info p {
+    color: #8696a0 !important;
+    font-size: 11px !important;
+    font-family: Arial, sans-serif !important;
+  }
+
+  .wa-messages {
+    padding: 16px 12px !important;
+    height: 320px !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  .wa-msg {
+    background: #202C33 !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    margin-bottom: 8px !important;
+    max-width: 85% !important;
+  }
+
+  .wa-msg.sent {
+    background: #005C4B !important;
+    margin-left: auto !important;
+  }
+
+  .wa-msg-name {
+    font-size: 11px !important;
+    font-weight: bold !important;
+    font-family: Arial, sans-serif !important;
+    margin-bottom: 3px !important;
+    color: #53bdeb !important;
+  }
+
+  .wa-msg-name.green { color: #00a884 !important; }
+
+  .wa-msg-text {
+    font-size: 13px !important;
+    color: #e9edef !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.5 !important;
+  }
+
+  .wa-msg-footer {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin-top: 4px !important;
+  }
+
+  .wa-time {
+    font-size: 10px !important;
+    color: #8696a0 !important;
+    font-family: Arial, sans-serif !important;
+  }
+
+  .wa-paid {
+    background: #00a884 !important;
+    color: #ffffff !important;
+    font-size: 10px !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold !important;
+    padding: 1px 7px !important;
+    border-radius: 3px !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  .wa-urgency {
+    text-align: center !important;
+    padding: 20px !important;
+    background: #fff8f0 !important;
+    border: 1px solid #ffe0c0 !important;
+    margin-top: 20px !important;
+  }
+
+  .wa-urgency p {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    color: #444 !important;
+    line-height: 1.7 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .wa-urgency strong { color: #c0392b !important; }
+
+  /* GUARANTEE */
+  .guarantee-box {
+    border: 2px solid #1a2744 !important;
+    padding: 32px 28px !important;
+    margin: 40px 0 !important;
+    text-align: center !important;
+  }
+
+  .guarantee-box .badge {
+    font-size: 48px !important;
+    display: block !important;
+    margin-bottom: 12px !important;
+  }
+
+  .guarantee-box h3 {
+    font-family: Georgia, serif !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    color: #1a2744 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .guarantee-box p {
+    font-size: 15px !important;
+    color: #444 !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.8 !important;
+    max-width: 520px !important;
+    margin: 0 auto 16px !important;
+  }
+
+  /* TWO CHOICE */
+  .two-choice {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 16px !important;
+    margin: 40px 0 !important;
+  }
+
+  .choice-box {
+    padding: 24px 20px !important;
+    border: 1px solid #dddddd !important;
+  }
+
+  .choice-box.good { border-color: #1a2744 !important; background: #f8f9fc !important; }
+  .choice-box.bad { border-color: #dddddd !important; background: #fafafa !important; }
+
+  .choice-box h4 {
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    margin-bottom: 12px !important;
+  }
+
+  .choice-box.good h4 { color: #1a2744 !important; }
+  .choice-box.bad h4 { color: #aaaaaa !important; }
+
+  .choice-box p {
+    font-size: 14px !important;
+    color: #555 !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.7 !important;
+  }
+
+  .clock-text {
+    text-align: center !important;
+    font-family: Georgia, serif !important;
+    font-size: 18px !important;
+    font-style: italic !important;
+    color: #c0392b !important;
+    margin: 28px 0 !important;
+    font-weight: bold !important;
+  }
+
+  .footer-blog {
+    background: #1a2744 !important;
+    padding: 28px 20px !important;
+    text-align: center !important;
+    margin-top: 60px !important;
+  }
+
+  .footer-blog p {
+    color: #7a8aaa !important;
+    font-size: 12px !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.7 !important;
+  }
+
+  .footer-blog a { color: #FFCC00 !important; text-decoration: none !important; }
+
+  @media (max-width: 600px) {
+    .post-title { font-size: 22px !important; }
+    .two-choice { grid-template-columns: 1fr !important; }
+    .bonus-item { grid-template-columns: 1fr !important; }
+    .price-now { font-size: 40px !important; }
+    .wa-phone { border-radius: 0 !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SECTION 1: BLOG HEADER -->
+<div class="blog-header">
+  <h1>✦ The Sharp Girl Files ✦</h1>
+  <p>Career Truths Nobody Posts About</p>
+</div>
+<div class="blog-nav">
+Home &nbsp;|&nbsp; Career &nbsp;|&nbsp; Real Talk &nbsp;|&nbsp; Success Stories &nbsp;|&nbsp; About Kemi</div>
+
+<div class="page-wrap">
+
+  <!-- SECTION 2: STORY HEADLINE -->
+  <div class="post-header">
+    <span class="post-category">Career &amp; Workplace</span>
+    <h1 class="post-title">Lagos Professional Reveals a Simple Field Guide That Helps Nigerian Graduates Stop Drowning in Their First Corporate Job — and Finally Start Getting Noticed</h1>
+    <p class="post-meta">Published: 14 March 2025 &nbsp;·&nbsp; Posted by Admin &nbsp;·&nbsp; 8 min read</p>
+  </div>
+
+  <!-- SECTION 3: HERO IMAGE PLACEHOLDER -->
+  <!-- INSERT HERO IMAGE HERE: Upload a personal, casual-looking photo of your persona "Kemi". 
+       Ideal: a young Nigerian woman, mid-20s, in a corporate setting or at a desk. 
+       NOT a professional headshot. Think: selfie-quality, genuine, relatable.
+       Ideal size: 600x400px. -->
+  <div class="img-placeholder">
+    <span>📸</span>
+    <strong>INSERT HERO IMAGE HERE</strong><br>
+    Upload a casual, personal-looking photo of Kemi.<br>
+    Suggested: young Nigerian woman at desk or in office setting.<br>
+    Ideal size: 600 x 400px
+    <img src="YOUR-IMAGE-URL-HERE.jpg" alt="Kemi - The Sharp Girl Files" style="display:none; max-width:100%;">
+  </div>
+
+  <!-- SECTION 4: OPENING HOOK -->
+  <div class="post-body">
+
+    <p>You got the job.</p>
+
+    <p>Let me say that again — <strong>you actually got the job.</strong></p>
+
+    <p>After the applications, the interviews, the prayer sessions, the anxious waiting, the NYSC stress — you finally got the offer letter. Your family celebrated. Your friends sent fire emojis. Your mum called relatives you haven't spoken to in three years just to announce it.</p>
+
+    <p>And then Monday came.</p>
+
+    <p>And you sat at that desk, in that office, surrounded by people who all seemed to know things that nobody ever taught you. There's a whole invisible game being played around you — and you cannot see the rules, cannot find the scorecard, cannot figure out why the hardest-working person in the room is sometimes the most invisible.</p>
+
+    <p><em>Am I doing this wrong? Is everyone else struggling too and just hiding it? Why does my manager's feedback never make sense? Why do I feel like a fraud every single day?</em></p>
+
+    <p>You go home exhausted — not from the work itself, but from the performance. From spending eight hours watching your every word, second-guessing every email before you send it, rehearsing conversations in your head that never go the way you planned.</p>
+
+    <p>You've Googled it. You've watched YouTube videos. You've read LinkedIn posts about "thriving in your career." And every single time, the advice feels like it was written for someone in a glass tower in San Francisco — not for you, in your office in Lagos or Abuja or Port Harcourt, where your oga's mood can change the entire floor's temperature before 9am.</p>
+
+    <p><em>Maybe I'm just not cut out for this. Maybe I made a mistake thinking I could do this job.</em></p>
+
+    <p>Stop.</p>
+
+    <p>That is not true. And deep down you already know that.</p>
+
+    <p>You are not failing because you're not smart enough. You are not failing because you're not working hard enough. <strong>You are struggling because you were handed a job without a rulebook — and everyone just assumed you'd figure it out.</strong></p>
+
+    <p>You spent years preparing for the interview. Nobody spent five minutes preparing you for what happens after.</p>
+
+    <p>Drop everything you are doing now and read every single word I am about to say.</p>
+
+  </div>
+
+  <!-- SECTION 5: THE PROMISE -->
+  <div class="promise-block">
+    <p>Because I'm about to share with you a simple field guide that completely changed how I show up at work — and how work shows up for me.</p>
+  </div>
+
+  <!-- SECTION 6: AUTHORITY TEASE -->
+  <div class="post-body">
+
+    <p>Here's something nobody talks about enough.</p>
+
+    <p>The people who thrive in corporate Nigeria — the ones who get noticed, get promoted, get chosen for the interesting projects — most of them didn't figure it out alone. Somewhere along the line, <strong>someone pulled them aside and told them how things actually work.</strong> A mentor. An older cousin. A godparent in the industry. Someone who said: "Let me tell you what nobody officially tells you."</p>
+
+    <p>That conversation is the unfair advantage most people never get.</p>
+
+    <p>Until now.</p>
+
+    <p>Hi. My name is Kemi.</p>
+
+    <p>First thing you should know about me: <strong>I am NOT a career coach. I don't have a degree in human resources. I am not a motivational speaker.</strong> I'm just a young woman who works in a demanding Nigerian corporate environment, who went through her first year feeling completely lost — and who eventually figured out what was actually going on.</p>
+
+  </div>
+
+  <!-- SECTION 7: SECOND PERSONA IMAGE -->
+  <!-- INSERT SECOND PERSONA IMAGE HERE: Upload a different casual photo of Kemi. 
+       Suggested: a more candid shot — maybe at a cafe, or working on a laptop, or a behind-the-scenes office moment.
+       Ideal size: 600x400px. -->
+  <div class="img-placeholder">
+    <span>📸</span>
+    <strong>INSERT SECOND PERSONA IMAGE HERE</strong><br>
+    A more casual or candid photo of Kemi.<br>
+    E.g. working at a laptop, sitting in a cafe, or candid office shot.<br>
+    Ideal size: 600 x 400px
+    <img src="YOUR-SECOND-IMAGE-URL-HERE.jpg" alt="Kemi at work" style="display:none; max-width:100%;">
+  </div>
+
+  <!-- SECTION 8: FULL PERSONAL STORY -->
+  <div class="post-body">
+
+    <p>Let me take you back to my first week at my job.</p>
+
+    <p>I had worked so hard to get there. Best results in my department at university. Three months post-NYSC and I already had an offer. People in my family were treating me like I had done something remarkable. I walked into that office on my first Monday like I was ready.</p>
+
+    <p>I was not ready.</p>
+
+    <p>By the end of week two, I was already questioning everything.</p>
+
+    <p>My manager would give me feedback and I genuinely could not tell if I was doing well or badly. He'd say things like "good effort, but let's revisit this" — and I'd smile and nod and walk back to my desk with absolutely no idea what "revisit" meant. <em>Revisit how? Revisit when? What was wrong with it?</em></p>
+
+    <p>I watched a colleague — someone who had only been there three months longer than me — get chosen for a client presentation. I had worked twice as hard that week. I had stayed late. I had triple-checked everything I submitted. <strong>She got the presentation. I got silence.</strong></p>
+
+    <p><em>What does she know that I don't know?</em></p>
+
+    <p>I started going home with a tightness in my chest that I couldn't explain. Not from the work — from the watching. From trying to decode a social environment that had no official manual. From feeling like there was a game being played around me that everyone else understood.</p>
+
+    <p>My confidence started cracking.</p>
+
+    <p>I remember one evening calling my aunty Folake — she's been in corporate Lagos for over 20 years — and just crying. Not dramatically. Just tired crying. The kind where you're not even sure what exactly you're upset about.</p>
+
+    <p>She listened. Then she said something I will never forget:</p>
+
+    <p><em>"Kemi. They hired you because of your brain. But what keeps you in that room is different. It's something nobody teaches you in school. The sooner you understand that, the sooner things will shift."</em></p>
+
+    <p>That conversation planted a seed.</p>
+
+    <p>But I still didn't know what to do with it. So I did what every overachieving, Google-everything person does. I started searching for answers.</p>
+
+    <p><strong>I tried everything.</strong></p>
+
+    <p>I watched career advice YouTube channels for weeks. The content was good — genuinely. But it was all built for a corporate world that looks nothing like the Nigerian one. "Schedule a 1:1 with your manager" — my manager barely responds to emails in under two days. "Advocate loudly for yourself in meetings" — I tried that once and someone senior cut me off mid-sentence and nobody flinched. I flinched for two days.</p>
+
+    <p>I bought an expensive online career course. I completed it. I learned about "personal branding" and "executive presence." Very interesting in theory. The morning after I finished it I went to the office and still had no idea how to handle my manager's vague feedback or why I kept getting overlooked.</p>
+
+    <p>I asked a senior colleague to mentor me. She said yes enthusiastically and then cancelled three meetings in a row. By the fourth time I stopped asking.</p>
+
+    <p>I started reading every LinkedIn post from Nigerian corporate professionals. Motivational content. "Your time is coming." "Keep working hard." "Stay consistent." All of it true. None of it useful at 8am on a Monday when you don't know if you're on thin ice with the person who writes your performance review.</p>
+
+    <p>I downloaded free "first job survival" PDFs from the internet. They were... fine. Checklists about showing up on time and dressing professionally. Things I already knew. Nobody was talking about what happens inside the walls of a real Nigerian office — the politics, the hierarchy, the invisible signals, the things that actually determine who rises and who stagnates.</p>
+
+    <p><strong>Nothing was solving the actual problem.</strong></p>
+
+    <p>Then something happened that I didn't expect.</p>
+
+    <p>My company hosted a small retirement gathering for one of the directors — Alhaji Bello, who had been in the industry for 34 years. I almost didn't go. I'm not naturally social. But my mum had drilled into me since childhood: "Show your face at the important moments." So I went.</p>
+
+    <p>I ended up in a quiet corner of the room, half watching people network, half checking my phone. And this older woman sat down beside me. Madam Ngozi. Late 50s. Former HR director, she told me later. Now consulting for several firms. She had this very calm energy — the kind of person who has seen enough to not be rattled by anything anymore.</p>
+
+    <p>She asked me how I was settling in. And I don't know why — maybe it was the third cup of Chapman or just the tiredness — but I told her the truth. I told her I was struggling. That I felt like everyone else had been given a handbook I hadn't received.</p>
+
+    <p>She nodded slowly. Like she had heard this before. Many times.</p>
+
+    <p>Then she said: <em>"They haven't given you any handbook, my dear. There isn't one. But there is a pattern. And once you see the pattern, you can't unsee it."</em></p>
+
+    <p>She talked for maybe thirty minutes. I stopped eating. I just listened.</p>
+
+    <p>She told me that the first year of any corporate job in Nigeria is not really about your output. <strong>It's about your positioning.</strong> It's about learning to read the room — which voices carry real weight, which tasks get you seen, how to make your contributions visible without appearing to be performing for attention, which would be punished.</p>
+
+    <p>She talked about managing upward — how to communicate with your manager in a way that makes them feel informed and respected, even when their communication style is unclear or their feedback is vague. She talked about the specific kind of quiet influence that Nigerian office culture rewards — not the loudest voice, but the most strategically present one.</p>
+
+    <p><em>"The people who move fast in these offices,"</em> she said, <em>"are not always the smartest. They are the ones who understood early that the visible work and the invisible work are different things — and they put equal energy into both."</em></p>
+
+    <p>I went home that night and wrote down everything she said.</p>
+
+    <p>I started applying it. Not dramatically — just small, deliberate shifts. I began mapping my office relationships differently. I changed how I handled my manager's ambiguous feedback. I found a way to make my work more visible without changing my personality. I stopped rehearsing emails for 45 minutes and started using a simple framework that made every message clear and confident.</p>
+
+    <p>The first few weeks felt strange. Like wearing different shoes. Not uncomfortable exactly — just unfamiliar.</p>
+
+    <p>Then something shifted.</p>
+
+    <p>My manager, for the first time, gave me feedback that was specific and positive. Not vague. Not "good effort." <strong>He said my name in a meeting and recommended a piece of my work to a client.</strong> I had to stop myself from showing how surprised I was.</p>
+
+    <p>Two months later, I was asked to join a project I hadn't been invited to before. One of the project leads told me: <em>"We hear your name a lot in good contexts. We wanted you on this."</em></p>
+
+    <p>I remember sitting in my car after that conversation and just breathing. <em>Oh. So this is what it's supposed to feel like.</em></p>
+
+    <p>My close friend Simi, who works at a different firm in Victoria Island, called me one evening after I shared some of Madam Ngozi's principles with her. She had been having a similar experience — brilliant, hardworking, and completely invisible. Within six weeks of applying what I shared, she told me her manager had nominated her for an internal development programme. <em>"Kemi, what did you do to me? I feel like I can finally breathe at work."</em></p>
+
+    <p>My cousin Bisi tried it too. Fresh out of NYSC, first job in Abuja. She messaged me three weeks in: <em>"My manager called me 'reliable' in a team meeting today. I've never been called reliable before. I've been called smart, I've been called ambitious — but reliable is the one that actually means something here."</em></p>
+
+    <p>That word. Reliable. <strong>That's the currency that matters in year one.</strong></p>
+
+    <p>I started getting messages. From friends. Friends of friends. People who had somehow heard that I had "figured something out" about surviving the first year. I was sharing notes in WhatsApp chats, over lunch, on phone calls.</p>
+
+    <p>And I realised — this information is not widely available. Not for us. Not in a form that actually fits our world. And I needed to change that.</p>
+
+  </div>
+
+  <!-- SECTION 9: PRODUCT REVEAL -->
+  <hr class="section-divider">
+
+  <div class="post-body">
+    <p>I get too many messages now to respond to individually. And honestly, what I want to share cannot be rushed into a voice note or a quick chat.</p>
+
+    <p>So I did what I should have done months ago.</p>
+
+    <p><strong>I sat down and wrote everything down properly.</strong> The full framework. The tools. The strategies. The exact things Madam Ngozi shared with me, combined with everything I tested, refined, and verified — in a real Nigerian corporate environment, with real results.</p>
+
+    <p>I put everything inside one complete guide. The office mapping exercise. The manager decoder. The visibility formula. The scripts for the awkward moments. The weekly routine that keeps you intentional and noticed. All of it — in one place, in language that actually fits our world.</p>
+
+    <p>Introducing...</p>
+  </div>
+
+  <!-- SECTION 10: PRODUCT MOCKUP IMAGE -->
+  <div class="product-reveal">
+    <h2>Introducing</h2>
+    <h3>Got The Job. Now What?</h3>
+    <p>Everything nobody told you about surviving and thriving in your first Nigerian corporate job.</p>
+  </div>
+
+  <!-- INSERT PRODUCT MOCKUP IMAGE HERE: Upload your PDF/ebook cover mockup.
+       Ideal: a 3D book or tablet mockup showing the cover of "Got The Job. Now What?"
+       Ideal size: 600x800px or 768x1152px. -->
+  <div class="img-placeholder">
+    <span>📖</span>
+    <strong>INSERT PRODUCT MOCKUP IMAGE HERE</strong><br>
+    Upload your 3D ebook/PDF cover mockup.<br>
+    Title shown: "Got The Job. Now What?"<br>
+    Ideal size: 600 x 800px
+    <img src="YOUR-MOCKUP-URL-HERE.jpg" alt="Got The Job. Now What? — PDF Guide" style="display:none; max-width:100%;">
+  </div>
+
+  <!-- SECTION 11: WHAT'S INSIDE -->
+  <div class="contents-list">
+    <h3>Inside this guide, you'll discover:</h3>
+    <ul>
+      <li><strong>The Office Power Map exercise</strong> — complete this in your first 20 minutes and know exactly which three relationships determine everything in your current workplace, and precisely how to show up in each one. — <em>Pg. 4</em></li>
+      <li><strong>The real reason smart people get overlooked in year one</strong> — it has nothing to do with effort, and once you understand it, everything starts making sense. — <em>Pg. 9</em></li>
+      <li><strong>The Manager Decoder reference card</strong> — a complete guide to the most common ambiguous things Nigerian managers say, what they actually mean, and what you should do next. — <em>Pg. 14</em></li>
+      <li><strong>The Difficult Moment Script Bank</strong> — exact words to use when someone takes credit for your work, when you're criticised publicly, when you're talked over in a meeting, or when you need to say no without damaging a relationship. — <em>Pg. 21</em></li>
+      <li><strong>The Visibility Without Arrogance Formula</strong> — the specific approach that gets your work noticed by the people who matter, without appearing to perform for attention — which Nigerian office culture will punish. — <em>Pg. 27</em></li>
+      <li><strong>The Monday Morning Positioning Ritual</strong> — a 10-minute weekly habit that keeps you intentional, politically aware, and strategically present — every single week, without fail. — <em>Pg. 33</em></li>
+      <li><strong>The 90-Day Confidence Tracker</strong> — a self-audit tool to measure your real progress and interrupt the spiral of catastrophising on the hard days, so you can see clearly how far you've actually come. — <em>Pg. 38</em></li>
+    </ul>
+  </div>
+
+  <div class="post-body">
+    <p>And the best part? You don't need to change your personality, pretend to be someone you're not, or spend money on expensive coaching. It's the same framework that worked for me — and has now quietly worked for over 60 people I've shared it with in Lagos, Abuja, and Port Harcourt.</p>
+  </div>
+
+  <!-- SECTION 12: FIRST TESTIMONIALS -->
+  <div class="testimonials-wrap">
+    <h3>Real People. Real Results.</h3>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#1a2744 !important;">TO</div>
+        <div class="comment-meta">
+          <div class="comment-name">Tolani Okafor</div>
+          <div class="comment-location">🇳🇬 Victoria Island, Lagos</div>
+        </div>
+        <div class="comment-time">3 days ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">Honestly Kemi I didn't think a PDF could do this but I used the Office Power Map on my third day at work and by the second week my manager was giving me real feedback not just "good effort." I cried small sha. Nobody had ever broken this down in a way that made sense for OUR kind of office. This is the guide I needed at NYSC orientation not now but better late than never!</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#2a5a3a !important;">CE</div>
+        <div class="comment-meta">
+          <div class="comment-name">Chidinma Eze</div>
+          <div class="comment-location">🇳🇬 Maitama, Abuja</div>
+        </div>
+        <div class="comment-time">1 week ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">The Script Bank alone is worth ten times what I paid. I've been using the "credit-stealing" script twice already and both times it worked exactly as described. My oga actually apologised and mentioned my name properly the second time. I screenshotted the conversation and sent it to my best friend like evidence lol. Please write more guides abeg.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#7a3020 !important;">FA</div>
+        <div class="comment-meta">
+          <div class="comment-name">Funke Adeyemi</div>
+          <div class="comment-location">🇳🇬 Ikeja, Lagos</div>
+        </div>
+        <div class="comment-time">2 weeks ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">I've been at my firm eight months and feeling like I was slowly disappearing. I read this in one sitting on a Sunday night and went to work Monday like a different person — not fake confident, genuinely confident because I now understood what was happening around me. My team lead literally said "Funke you seem more settled recently" and I was like... yes, yes I am. Thank you Kemi.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#404870 !important;">NI</div>
+        <div class="comment-meta">
+          <div class="comment-name">Ngozi Ihejirika</div>
+          <div class="comment-location">🇳🇬 GRA, Port Harcourt</div>
+        </div>
+        <div class="comment-time">2 weeks ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">I work in oil and gas and the politics here is... something else. I was so close to resigning after 5 months because I genuinely thought I was the problem. The Visibility Formula section made me realise I wasn't the problem at all — I was just invisible in the wrong ways. Three weeks after applying it I was added to a cross-functional project. I nearly called my mum from the office bathroom.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#5a3a70 !important;">AB</div>
+        <div class="comment-meta">
+          <div class="comment-name">Amaka Bello</div>
+          <div class="comment-location">🇳🇬 Lekki Phase 1, Lagos</div>
+        </div>
+        <div class="comment-time">3 weeks ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">E don do for me and YouTube career videos. None of them ever mentioned that your manager's communication style might just be... their problem and not your failure. The Manager Decoder was a revelation. I now know my boss is an "avoidant feedback giver" and I know exactly how to work around that. Changed my whole relationship with him. 10/10.</p>
+    </div>
+
+    <div class="pagination">
+      <span class="active">1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+
+    <div class="comment-form">
+      <h4>Share Your Experience →</h4>
+      <input type="text" placeholder="Your name" />
+      <input type="text" placeholder="Your city and country" />
+      <textarea rows="4" placeholder="Tell us how the guide helped you..."></textarea>
+      <button type="button">Submit Review</button>
+    </div>
+  </div>
+
+  <!-- SECTION 13: PRICING -->
+  <div class="pricing-section">
+    <h2>Just So You Know... Putting This Guide Together Cost Me Over ₦180,000.</h2>
+
+    <ul class="cost-list">
+      <li>Professional editor to review and restructure the full manuscript — ₦45,000</li>
+      <li>Graphic designer for PDF layout, cover, and all five internal tool templates — ₦52,000</li>
+      <li>6 months of research, testing, and refining every strategy in a real Nigerian office — ₦0 (but priceless)</li>
+      <li>Website setup and hosting to deliver the product securely — ₦28,000</li>
+      <li>Beta testing with 60+ professionals across Lagos, Abuja and Port Harcourt — ₦55,000 in time and logistics</li>
+    </ul>
+
+    <div class="price-descent">
+      <p>I'm not going to charge you ₦180,000...</p>
+      <p>I won't even charge you <s>₦50,000</s>...</p>
+      <p>Not even <s>₦25,000</s>...</p>
+      <p>In fact, you won't even pay <s>₦15,000</s>...</p>
+      <p><strong>A fair price for me would be just ₦9,800.</strong></p>
+    </div>
+
+    <div class="price-final">
+      <span class="price-was">Was: ₦9,800</span>
+      <span class="price-now">₦7,500</span>
+      <span class="price-usd">≈ $4.97 USD · One-time payment · Instant PDF download</span>
+    </div>
+
+    <div class="scarcity-bar">
+      ⚠️ THIS DISCOUNTED PRICE IS ONLY FOR THE FIRST 20 BUYERS — HURRY!
+    </div>
+  </div>
+
+  <!-- SECTION 14: FIRST CTA -->
+  <a href="https://selar.co/YOUR-PRODUCT-LINK" class="cta-btn">
+    👉 Click Here To Get "Got The Job. Now What?" NOW!
+  </a>
+  <p class="cta-subtext">Instant download after payment · Secure checkout via Selar · Card, bank transfer &amp; USSD accepted</p>
+
+  <!-- SECTION 15: BONUSES -->
+  <div class="bonus-section">
+    <h2>⭐ WAIT! I Have a FREE Gift For You...</h2>
+    <p class="bonus-note">If you're among the first 20 buyers, you'll receive these bonuses alongside your guide. Today only.</p>
+
+    <div class="bonus-item">
+      <!-- INSERT BONUS 1 MOCKUP IMAGE HERE: Upload a mockup of the "Week One Win Checklist" bonus.
+           Suggested: a clean PDF cover or checklist preview. Ideal size: 300x400px. -->
+      <div class="bonus-img-placeholder">
+        📋<br><br>
+        INSERT<br>BONUS 1<br>IMAGE<br>HERE<br><br>
+        300x400px
+        <img src="YOUR-BONUS1-IMAGE.jpg" alt="Bonus 1" style="display:none; max-width:100%;">
+      </div>
+      <div class="bonus-content">
+        <h4>BONUS 1: The Week One Win Checklist</h4>
+        <p>A rapid-action checklist of the 12 most important moves to make in your very first week — the ones that quietly signal to everyone around you that you understand the environment. Most people waste week one on the wrong things. This makes sure you don't.</p>
+        <p><strong>Works on day one. No experience needed.</strong></p>
+        <span class="bonus-value">VALUE: ₦3,500 — YOURS FREE</span>
+      </div>
+    </div>
+
+    <div class="bonus-item">
+      <!-- INSERT BONUS 2 MOCKUP IMAGE HERE: Upload a mockup of the "What NOT To Do" companion guide bonus.
+           Suggested: a PDF cover or preview image. Ideal size: 300x400px. -->
+      <div class="bonus-img-placeholder">
+        🚫<br><br>
+        INSERT<br>BONUS 2<br>IMAGE<br>HERE<br><br>
+        300x400px
+        <img src="YOUR-BONUS2-IMAGE.jpg" alt="Bonus 2" style="display:none; max-width:100%;">
+      </div>
+      <div class="bonus-content">
+        <h4>BONUS 2: The "What NOT To Do" Companion Guide</h4>
+        <p>Everything I did wrong in my first year that cost me time, relationships, and confidence — documented honestly so you don't have to learn the hard way. 18 specific mistakes, why they happen, and the exact alternative to take instead. This one alone could save you months of painful trial and error.</p>
+        <p><strong>The mistakes that kill first-year careers — named and explained.</strong></p>
+        <span class="bonus-value">VALUE: ₦4,000 — YOURS FREE</span>
+      </div>
+    </div>
+
+    <!-- INSERT BUNDLE IMAGE HERE: Show all three products (main guide + both bonuses) together in one combined mockup.
+         Suggested: a flat lay or 3D stacked ebook mockup. Ideal size: 700x500px. -->
+    <div class="img-placeholder" style="margin-top:24px !important;">
+      <span>🎁</span>
+      <strong>INSERT FULL BUNDLE IMAGE HERE</strong><br>
+      Show: Main guide + Bonus 1 + Bonus 2 together in one mockup image.<br>
+      Ideal size: 700 x 500px
+      <img src="YOUR-BUNDLE-IMAGE.jpg" alt="Full Bundle" style="display:none; max-width:100%;">
+    </div>
+
+  </div>
+
+  <!-- SECTION 16: SECOND CTA -->
+  <a href="https://selar.co/YOUR-PRODUCT-LINK" class="cta-btn">
+    👉 Click Here To Get "Got The Job. Now What?" NOW! + Both FREE Bonuses
+  </a>
+  <p class="cta-subtext">First 20 buyers only · After that, bonuses are removed · Don't delay</p>
+
+  <!-- SECTION 17: WHATSAPP SALES NOTIFICATIONS -->
+  <div class="wa-section">
+    <h3>Others Are Already Getting Their Copy...</h3>
+
+    <div class="wa-phone">
+      <div class="wa-header">
+        <div class="wa-avatar">GJ</div>
+        <div class="wa-group-info">
+          <h4>Got The Job Buyers ✅</h4>
+          <p>47 members</p>
+        </div>
+      </div>
+      <div class="wa-messages" id="waMessages">
+        <div class="wa-msg">
+          <div class="wa-msg-name">Temi A.</div>
+          <div class="wa-msg-text">Just paid! 🙏 been waiting for something like this</div>
+          <div class="wa-msg-footer"><span class="wa-time">09:14</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg">
+          <div class="wa-msg-name green">Adaeze O.</div>
+          <div class="wa-msg-text">Payment done ✓ Abuja checking in</div>
+          <div class="wa-msg-footer"><span class="wa-time">09:21</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg">
+          <div class="wa-msg-name">Bisi K.</div>
+          <div class="wa-msg-text">Done! My transfer just went through 🔥</div>
+          <div class="wa-msg-footer"><span class="wa-time">09:35</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg">
+          <div class="wa-msg-name green">Sola M.</div>
+          <div class="wa-msg-text">Sent! So ready to read this. God bless you Kemi</div>
+          <div class="wa-msg-footer"><span class="wa-time">09:48</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg">
+          <div class="wa-msg-name">Chiamaka E.</div>
+          <div class="wa-msg-text">PH represent 💪 payment confirmed</div>
+          <div class="wa-msg-footer"><span class="wa-time">10:03</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg">
+          <div class="wa-msg-name green">Remi A.</div>
+          <div class="wa-msg-text">Mine went through too! Can't wait 🙌</div>
+          <div class="wa-msg-footer"><span class="wa-time">10:17</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg">
+          <div class="wa-msg-name">Yewande B.</div>
+          <div class="wa-msg-text">Just paid from London 🇬🇧 Nigerian first jobs are the same everywhere lol</div>
+          <div class="wa-msg-footer"><span class="wa-time">10:29</span><span class="wa-paid">PAID</span></div>
+        </div>
+        <div class="wa-msg sent">
+          <div class="wa-msg-name" style="color:#7dd3c0 !important;">Kemi (Author)</div>
+          <div class="wa-msg-text">Amazing response everyone 🙏 Enjoy the guide. You've got this!</div>
+          <div class="wa-msg-footer"><span class="wa-time">10:31</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wa-urgency">
+      <p><strong>14 people</strong> have already taken this discounted price...</p>
+      <p>Only <strong style="color:#c0392b !important;">6 spots remain</strong> at ₦7,500.</p>
+      <p>Bear in mind — you are not the only person reading this page right now.</p>
+    </div>
+  </div>
+
+  <a href="https://selar.co/YOUR-PRODUCT-LINK" class="cta-btn" style="background:#c0392b !important;">
+    ⚡ I Want My Copy Now — Before The Price Goes Up
+  </a>
+  <p class="cta-subtext">Click above · Pay securely · Download instantly</p>
+
+  <!-- SECTION 18: GUARANTEE -->
+  <div class="guarantee-box">
+    <span class="badge">🛡️</span>
+    <h3>My 7-Day "It Works or It's Free" Promise</h3>
+    <p>Still feeling unsure? I completely understand. Which is why I'm making you a bold, risk-free promise:</p>
+    <p>Get the guide. Read it. Use the Office Power Map. Try the Manager Decoder. Apply even one strategy from the Visibility Formula. If after 7 days you don't feel measurably clearer, more confident, and more in control of your work environment — <strong>send me one message and I will refund every naira. No questions. No drama.</strong></p>
+    <p>I'm that confident this works for the Nigerian corporate world, because I tested it there myself.</p>
+    <a href="https://selar.co/YOUR-PRODUCT-LINK" class="cta-btn" style="max-width:480px; margin:16px auto 0 !important;">
+      Yes — I'm Ready. Get Me The Guide
+    </a>
+  </div>
+
+  <!-- SECTION 19: SECOND TESTIMONIAL SET -->
+  <div class="testimonials-wrap">
+    <h3>More From Our Community ✦</h3>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#2a4a2a !important;">RO</div>
+        <div class="comment-meta">
+          <div class="comment-name">Ronke Oladele</div>
+          <div class="comment-location">🇬🇧 London, UK 🇳🇬 (originally Ibadan)</div>
+        </div>
+        <div class="comment-time">4 days ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">I moved to the UK two years ago and thought corporate politics here would be different. Some things are different — most things aren't. The core principles in this guide applied directly to my London workplace and I say that as someone who was skeptical about buying a "Nigerian career guide" from abroad. The Email Confidence System has literally changed my life. I used to spend an hour on every important email. Now 10 minutes max.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#4a2040 !important;">KN</div>
+        <div class="comment-meta">
+          <div class="comment-name">Kelechi Nwosu</div>
+          <div class="comment-location">🇳🇬 Enugu, Nigeria</div>
+        </div>
+        <div class="comment-time">5 days ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">The What NOT To Do bonus alone was worth the whole price. I recognized myself on literally every page. Things I was doing that I thought were professional were actually costing me. Chapter 3 of that bonus made me put the PDF down and just sit quietly for five minutes. Sha sha this is real. Buy it abeg.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#1a4060 !important;">IE</div>
+        <div class="comment-meta">
+          <div class="comment-name">Ifunanya Eze-Okonkwo</div>
+          <div class="comment-location">🇳🇬 Wuse 2, Abuja</div>
+        </div>
+        <div class="comment-time">1 week ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">My aunty is a director and she has been trying to give me this kind of advice for years but she never had the time to sit and break it down properly. This guide is that conversation she never had time to have. I sent it to her and she said "who wrote this? They know our world." That is the biggest compliment I can give.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#603018 !important;">TA</div>
+        <div class="comment-meta">
+          <div class="comment-name">Taiwo Adesanya</div>
+          <div class="comment-location">🇨🇦 Toronto, Canada 🇳🇬</div>
+        </div>
+        <div class="comment-time">10 days ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">Bought this for my younger sister who just started her first job in Lagos. She called me after week two and said "Taiwo whatever you sent me — it's working." I cried small. She was really struggling and feeling like a failure. Now she has vocabulary for what's happening around her and she knows how to respond to it. That peace of mind as her older sister is worth far more than the price.</p>
+    </div>
+
+    <div class="comment-card">
+      <div class="comment-header">
+        <div class="comment-avatar" style="background:#283860 !important;">OA</div>
+        <div class="comment-meta">
+          <div class="comment-name">Oluwakemi Adebisi</div>
+          <div class="comment-location">🇳🇬 Surulere, Lagos</div>
+        </div>
+        <div class="comment-time">2 weeks ago</div>
+      </div>
+      <div class="comment-stars">★★★★★</div>
+      <p class="comment-text">I have been in my role for 11 months and almost left twice. I was this close. My friend sent me this page and I almost didn't read it — I've seen too many things promise results and deliver nothing. But ₦7,500 is nothing and I figured what do I have to lose. I now have a Monday morning routine I actually look forward to. My relationship with my manager is completely different. I feel like a professional for the first time.</p>
+    </div>
+
+    <div class="pagination">
+      <span class="active">1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+  </div>
+
+  <!-- SECTION 20: TWO CHOICE CLOSE -->
+  <div class="post-body">
+    <p style="text-align:center !important; font-family:Georgia, serif !important; font-size:19px !important; font-weight:bold !important; margin-bottom:28px !important;">You have two options right now.</p>
+  </div>
+
+  <div class="two-choice">
+    <div class="choice-box good">
+      <h4>Option A ✓</h4>
+      <p>Get the guide. Learn the real rules of the game. Use the tools. Apply the framework. Start becoming the person in the room who is noticed, trusted, and chosen — without changing who you are.</p>
+    </div>
+    <div class="choice-box bad">
+      <h4>Option B ✗</h4>
+      <p>Close this page. Continue figuring it out the hard way. Keep second-guessing every email, every meeting, every piece of feedback that doesn't quite make sense. Maybe things will eventually click on their own. Maybe.</p>
+    </div>
+  </div>
+
+  <p class="clock-text">The rulebook is right here. The clock is ticking.</p>
+
+  <!-- SECTION 21: FINAL CTA -->
+  <a href="https://selar.co/YOUR-PRODUCT-LINK" class="cta-btn">
+    👉 YES — Give Me "Got The Job. Now What?" + Both Bonuses Now!
+  </a>
+  <p class="cta-subtext">Secure payment · Instant download · 7-day money-back guarantee · First 20 buyers get both bonuses FREE</p>
+
+  <div class="post-body" style="margin-top:40px !important; padding-top:32px !important; border-top:1px solid #eee !important;">
+    <p style="font-size:14px !important; color:#888 !important; font-family:Arial, sans-serif !important;">With love and no vagueness,<br><strong style="color:#1a2744 !important;">Kemi</strong><br><em>The Sharp Girl Files</em></p>
+    <p style="font-size:13px !important; color:#aaa !important; font-family:Arial, sans-serif !important; margin-top:12px !important;">P.S. — If you're still reading this, you already know this is for you. The only question is whether you're going to take the information or leave it. I genuinely hope you take it. You've worked too hard to stay invisible.</p>
+  </div>
+
+</div><!-- end page-wrap -->
+
+<!-- FOOTER -->
+<div class="footer-blog">
+  <p>© 2025 The Sharp Girl Files &nbsp;·&nbsp; <a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Contact</a> &nbsp;·&nbsp; <a href="#">Disclaimer</a></p>
+  <p style="margin-top:8px !important;">This site is not affiliated with or endorsed by any employer or corporate institution. Results mentioned are individual experiences and may vary.</p>
+</div>
+
+<script>
+  // WhatsApp chat gentle auto-scroll
+  (function() {
+    var container = document.getElementById('waMessages');
+    if (!container) return;
+    var scrollDown = true;
+    var scrollInterval = setInterval(function() {
+      if (scrollDown) {
+        container.scrollTop += 1;
+        if (container.scrollTop >= container.scrollHeight - container.clientHeight) {
+          scrollDown = false;
+        }
+      } else {
+        container.scrollTop -= 1;
+        if (container.scrollTop <= 0) {
+          scrollDown = true;
+        }
+      }
+    }, 40);
+  })();
+
+  // Decorative comment form — prevent submission
+  (function() {
+    var btn = document.querySelector('.comment-form button');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        btn.textContent = 'Thank you! Your review is under review.';
+        btn.style.background = '#2a5a3a';
+        btn.disabled = true;
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
